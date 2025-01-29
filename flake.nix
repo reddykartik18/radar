@@ -10,7 +10,7 @@
         name = "radar";
         nativeBuildInputs = [
           (pkgs.python3.withPackages (ps: with ps; [
-            pysdl2 opencv-python  
+            pysdl2 opencv-python scikit-image numpy 
           ]))
         ];
       };
